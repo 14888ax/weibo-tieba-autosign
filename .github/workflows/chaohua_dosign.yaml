@@ -32,6 +32,8 @@ jobs:
         env:
           SUB_TOKEN: ${{ secrets.SUB_TOKEN }}
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
+          HOST_EMAIL_ADDRESS: ${{ secrets.HOST_EMAIL_ADRESS }}
+          HOST_EAMIL_PASSWORD: ${{ secrets.HOST_EAMIL_PASSWORD }}
         run: |
           python weibo/chaohua_dosign.py || echo "Script failed with exit code $?"
         
