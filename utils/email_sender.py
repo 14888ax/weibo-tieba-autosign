@@ -33,7 +33,7 @@ def send_QQ_email_plain(content):
     msg['From'] = f'{sender}'
     msg['To'] = os.getenv('EMAIL_ADDRESS')
     # msg['To'] = os.getenv('HOST_EMAIL_ADDRESS')
-    msg['Subject'] = f'{formatted_date}'  # 设置邮件主题
+    msg['Subject'] = f'{formatted_date,签到结果}'  # 设置邮件主题
 
     try:
         # 建立 SMTP 、SSL 的连接，连接发送方的邮箱服务器
