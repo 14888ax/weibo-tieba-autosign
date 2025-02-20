@@ -44,7 +44,7 @@ def send_QQ_email_plain(content):
 
         # 发送邮件：发送方，接收方，发送的内容
         smtp.sendmail(sender, os.getenv('EMAIL_ADDRESS'), msg.as_string())
-        # smtp.sendmail(sender, '3552971348@qq.com', msg.as_string())
+        # smtp.sendmail(sender, 'HOST_EMAIL_ADDRESS', msg.as_string())
 
         print('邮件发送成功')
 
