@@ -25,7 +25,7 @@ def send_QQ_email_plain(content):
 
     # 格式化北京时间为 "年-月-日 星期几 时:分" 格式
     formatted_date = get_beijing_time()
-    feedback=签到结果
+    feedback = 签到结果
 
     # 纯文本内容
     msg = MIMEText(f'签到结果：{content}', 'plain', 'utf-8')
