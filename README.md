@@ -23,12 +23,12 @@
 
 
 # 一共设置的变量有
-SUB_TOKEN （从微博cookies获取）
-STOKEN （从贴吧cookies获取）
-BDUSS_BFESS （从贴吧cookies获取）
-EMAIL_ADDRESS （用于完成后邮件通知的目标）
-HOST_EMAIL_ADDRESS （设置发送签到完成的邮箱地址）
-HOST_EMAIL_PASSWORD （设置发送签到完成的邮箱的密码）
+1. SUB_TOKEN （从微博cookies获取）
+2. STOKEN （从贴吧cookies获取）
+3. BDUSS_BFESS （从贴吧cookies获取）
+4. EMAIL_ADDRESS （用于完成后邮件通知的目标）
+5. HOST_EMAIL_ADDRESS （设置发送签到完成的邮箱地址）
+6. HOST_EMAIL_PASSWORD （设置发送签到完成的邮箱的密码）
 
 
 # 关于设置HOST EMAIL
