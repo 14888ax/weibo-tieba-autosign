@@ -33,7 +33,7 @@ jobs:
           EMAIL_ADDRESS: ${{ secrets.EMAIL_ADDRESS }}
           BDUSS_BFESS: ${{ secrets.BDUSS_BFESS }}
           STOKEN: ${{ secrets.STOKEN }}
-          HOST_EMAIL_ADDRESS: ${{ secrets.HOST_EMAIL_ADRESS }}
+          HOST_EMAIL_ADDRESS: ${{ secrets.HOST_EMAIL_ADDRESS }}
           HOST_EMAIL_PASSWORD: ${{ secrets.HOST_EMAIL_PASSWORD }}
         run: |
           python baidu贴吧/tieBa_DoSign.py || echo "Script failed with exit code $?"
