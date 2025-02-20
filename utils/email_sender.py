@@ -25,6 +25,7 @@ def send_QQ_email_plain(content):
 
     # 格式化北京时间为 "年-月-日 星期几 时:分" 格式
     formatted_date = get_beijing_time()
+    feedback=签到结果
 
     # 纯文本内容
     msg = MIMEText(f'签到结果：{content}', 'plain', 'utf-8')
@@ -33,7 +34,7 @@ def send_QQ_email_plain(content):
     msg['From'] = f'{sender}'
     msg['To'] = os.getenv('EMAIL_ADDRESS')
     # msg['To'] = os.getenv('HOST_EMAIL_ADDRESS')
-    msg['Subject'] = f'{formatted_date,签到结果}'  # 设置邮件主题
+    msg['Subject'] = f'{formatted_date，feedback}'  # 设置邮件主题
 
     try:
         # 建立 SMTP 、SSL 的连接，连接发送方的邮箱服务器
