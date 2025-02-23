@@ -1,4 +1,4 @@
-# ！！！注意该项目为复制二改操作跟繁琐但可以自定义更加安全如要懒人操作请跳转https://github.com/Tigaisgzy/Little-helper！！！
+# ！！！注意该项目为复制二改操作跟繁琐但可以自定义更加安全如要懒人操作请跳转https://github.com/Tigaisgzy/Little-helper ！！！
 
 
 **配置一次，就可以每天自动打卡了！**
